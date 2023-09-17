@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: #bababa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +18,10 @@ body{
     max-height: 40rem;
     margin: 20px;
     overflow: hidden;
-    border: 10px solid #fff;
 }
 
 .meme__slide img{
+    box-shadow: 0 0.6rem 0.6rem 0 rgba(0, 0, 0, 0.25);
     max-width: 100%;
 }
 
@@ -44,7 +44,7 @@ body{
     width: 20px;
     border-radius: 50%;
     cursor: pointer;
-    background-color: antiquewhite;
+    background-color: #4b2b2b;
     transition: all .4s ease;
 }
 
